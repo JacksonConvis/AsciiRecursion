@@ -11,9 +11,10 @@ public class recursionAscii {
 		System.out.println("How many boys would you like?");
 		int count = scan.nextInt();
 		Boy(count);
+		scan.close();
 	}
 	public static void Boy(int count) {
-		 System.out.println ("    /:''|    ");    
+		 System.out.println  ("    /:''|    ");    
 		  System.out.println ("   |: 00|_   ");  
 		  System.out.println ("   C     _)  ");  
 		  System.out.println ("    \\ ._|      ");
